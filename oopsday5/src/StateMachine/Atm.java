@@ -38,7 +38,7 @@ public class Atm implements ATMIface
 		
 		
 		@Override
-		public int total(int count, int amt)
+		public int total(int count, int amt) {
 			// TODO Auto-generated method stub
 			int flag=0;
 			boolean bool=false;
@@ -67,12 +67,10 @@ public class Atm implements ATMIface
 				bool=true;temp=count;
 				}
 			return 0;
-		
-
 		}
+
+	}
 		
-		
-	 
 } 
 		
 		

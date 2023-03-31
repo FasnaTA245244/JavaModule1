@@ -14,7 +14,7 @@ class Worker1 implements IWorker{
 class SuperWorker1 implements IWorker{
 	public void work()
 	{
-		
+	
 	}
 }
 class Manager1
